@@ -1,0 +1,54 @@
+// import map
+@use "sass:map";
+
+// general reset
+@mixin reset($pad: null, $mar: null, $box: null, $deco: null, $listo: null) {
+	padding: $pad;
+	margin: $mar;
+	box-sizing: $box;
+	text-decoration: $deco;
+	list-style-type: $listo;
+}
+
+// list reset
+@mixin reset-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+// media breakpoints
+@mixin bp($point) {
+	$bp-xs: 'screen and (max-width: 575px)';
+	$bp-sm: 'screen and (min-width: 576px) and (max-width: 767px)';
+	$bp-md: 'screen and (min-width: 768px) and (max-width: 991px)';
+	$bp-lg: 'screen and (min-width: 992px) and (max-width: 1199px)';
+	$bp-xl: 'screen and (min-width: 1200px) and (max-width: 1399px)';
+	$bp-xxl: 'screen and (min-width: 1400px)';
+
+	@if $point == xs {
+		@media #{$bp-xs} {
+			@content;
+		}
+	} @else if $point == sm {
+		@media #{$bp-sm} {
+			@content;
+		}
+	} @else if $point == md {
+		@media #{$bp-md} {
+			@content;
+		}
+	} @else if $point == lg {
+		@media #{$bp-lg} {
+			@content;
+		}
+	} @else if $point == xl {
+		@media #{$bp-xl} {
+			@content;
+		}
+	} @else if $point == xxl {
+		@media #{$bp-xxl} {
+			@content;
+		}
+	}
+}

@@ -1,0 +1,26 @@
+// reset
+* {
+  @include reset(0, 0, border-box, none, none);
+}
+
+// body
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: $dark;
+  color: $light;
+}
+
+.source-sans {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.barlow-condensed {
+  font-family: "Barlow Condensed", sans-serif;
+}
