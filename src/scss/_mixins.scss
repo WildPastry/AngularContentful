@@ -1,6 +1,3 @@
-// import map
-@use "sass:map";
-
 // general reset
 @mixin reset($pad: null, $mar: null, $box: null, $deco: null, $listo: null) {
 	padding: $pad;
