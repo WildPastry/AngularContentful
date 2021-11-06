@@ -16,6 +16,17 @@ body {
   color: $dark;
 }
 
+// BOOTSTRAP CONTROL
+
+// theme colors
+$theme-colors: (
+	'primary': $theme-dark,
+  'secondary': $theme-light
+);
+
+// buttons
+$btn-border-radius: 0px;
+
 // font
 .source-sans {
   font-family: "Source Sans Pro", sans-serif;
@@ -39,6 +50,10 @@ body {
 
 .text-theme-light {
   color: $theme-light;
+}
+
+.text-theme-spot {
+  color: $theme-spot;
 }
 
 // cursor
@@ -65,6 +80,10 @@ body {
 
 .bg-theme-light {
   background-color: $theme-light;
+}
+
+.bg-theme-spot {
+  background-color: $theme-spot;
 }
 
 // control

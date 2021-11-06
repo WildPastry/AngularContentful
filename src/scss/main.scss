@@ -5,11 +5,11 @@
 // font import
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Source+Sans+Pro:wght@300&family=Birthstone+Bounce&display=swap');
 
+// custom imports
+@import 'base';
+
 // bootstrap import
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 @import '~bootstrap/scss/bootstrap';
-
-// custom imports
-@import 'base';

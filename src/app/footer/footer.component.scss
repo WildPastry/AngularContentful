@@ -4,3 +4,12 @@
   bottom: 0;
   width: 100%;
 }
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.btn-grid-item {
+  margin: 5px;
+}
