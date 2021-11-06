@@ -1,5 +1,11 @@
+// img
 .post-img {
   display: block;
   width: 340px;
   height: 340px;
+}
+
+// bootstrap over-rides
+.container {
+  max-width: 1500px;
 }

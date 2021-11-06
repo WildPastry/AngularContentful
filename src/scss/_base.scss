@@ -26,6 +26,23 @@ body {
   font-family: "Barlow Condensed", sans-serif;
 }
 
+.birthstone-bounce {
+  font-family: 'Birthstone Bounce', cursive;
+}
+
 .text-blue {
   color: $blue;
+}
+
+// cursor
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.cursor-text {
+  cursor: text;
 }
