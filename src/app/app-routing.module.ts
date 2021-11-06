@@ -5,13 +5,9 @@ import { PostDetailsComponent } from './post-details/post-details.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'posts',
     component: PostsPageComponent
   },
-  // {
-  //   path: 'posts',
-  //   component: PostsPageComponent
-  // },
   {
     path: 'post-details/:id',
     component: PostDetailsComponent
@@ -23,22 +19,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule {}
-
-// const routes: Routes = [
-//   {
-//     path: 'posts',
-//     component: PostsPageComponent
-//   },
-//   {
-//     path: 'post-details/:id',
-//     component: PostDetailsComponent
-//   }
-// ];
-
-// const routes: Routes = [
-//   {
-//     path: "posts",
-//     component: PostsPageComponent,
-//     children: [{ path: "post-details/:id", component: PostDetailsComponent }],
-//   },
-// ];

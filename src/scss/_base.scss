@@ -13,14 +13,19 @@ body {
 }
 
 body {
-  background-color: $dark;
-  color: $light;
+  background-color: $light;
+  color: $dark;
 }
 
+// font
 .source-sans {
   font-family: "Source Sans Pro", sans-serif;
 }
 
 .barlow-condensed {
   font-family: "Barlow Condensed", sans-serif;
+}
+
+.text-blue {
+  color: $blue;
 }

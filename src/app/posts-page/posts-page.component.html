@@ -1,16 +1,17 @@
-<div class="content">
-  <div class="posts">
+<section>
+  <div>
     <ng-container *ngIf="posts$ | async as posts">
-      <div *ngFor="let p of posts" class="post">
-        <div class="post-image">
-          <img src="{{ p.fields.image.fields.file.url }}" />
+      <div *ngFor="let p of posts">
+        <div>
+          <img class="post-img" src="{{ p.fields.image.fields.file.url }}" />
         </div>
-        <a [routerLink]="['/post-details/', p.sys.id]" routerLinkActive="active">
-          <div class="post-title">
+        <a [routerLink]="['/post-details/', p.sys.id]"
+          routerLinkActive="active">
+          <div>
             {{ p.fields.title }}
           </div>
         </a>
       </div>
     </ng-container>
   </div>
-</div>
+</section>
