@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  background-color: $light;
+  background-color: $lite;
   color: $dark;
 }
 
@@ -20,14 +20,18 @@ body {
 
 // theme colors
 $theme-colors: (
-	'primary': $theme-dark,
-  'secondary': $theme-light
+	'primary': $blue-dark,
+  'secondary': $grey-lite
 );
 
 // buttons
 $btn-border-radius: 0px;
 
 // font
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .source-sans {
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -40,20 +44,24 @@ $btn-border-radius: 0px;
   font-family: 'Birthstone Bounce', cursive;
 }
 
-.text-theme-dark {
-  color: $theme-dark;
+.text-blue-dark {
+  color: $blue-dark;
 }
 
-.text-theme-med {
-  color: $theme-med;
+.text-grey-med {
+  color: $grey-med;
 }
 
-.text-theme-light {
-  color: $theme-light;
+.text-grey-lite {
+  color: $grey-lite;
 }
 
-.text-theme-spot {
-  color: $theme-spot;
+.text-tan-dark {
+  color: $tan-dark;
+}
+
+.text-tan-lite {
+  color: $tan-lite;
 }
 
 // cursor
@@ -70,20 +78,24 @@ $btn-border-radius: 0px;
 }
 
 // bg
-.bg-theme-dark {
-  background-color: $theme-dark;
+.bg-blue-dark {
+  background-color: $blue-dark;
 }
 
-.bg-theme-med {
-  background-color: $theme-med;
+.bg-grey-med {
+  background-color: $grey-med;
 }
 
-.bg-theme-light {
-  background-color: $theme-light;
+.bg-grey-lite {
+  background-color: $grey-lite;
 }
 
-.bg-theme-spot {
-  background-color: $theme-spot;
+.bg-tan-dark {
+  background-color: $tan-dark;
+}
+
+.bg-tan-lite {
+  background-color: $tan-lite;
 }
 
 // control
