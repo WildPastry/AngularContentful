@@ -8,7 +8,6 @@ html,
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100%;
   margin: 0;
 }
 
@@ -30,8 +29,16 @@ body {
   font-family: 'Birthstone Bounce', cursive;
 }
 
-.text-blue {
-  color: $blue;
+.text-theme-dark {
+  color: $theme-dark;
+}
+
+.text-theme-med {
+  color: $theme-med;
+}
+
+.text-theme-light {
+  color: $theme-light;
 }
 
 // cursor
@@ -45,6 +52,19 @@ body {
 
 .cursor-text {
   cursor: text;
+}
+
+// bg
+.bg-theme-dark {
+  background-color: $theme-dark;
+}
+
+.bg-theme-med {
+  background-color: $theme-med;
+}
+
+.bg-theme-light {
+  background-color: $theme-light;
 }
 
 // control
