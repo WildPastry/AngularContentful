@@ -1,11 +1,13 @@
-<section class="row mt-5">
-  <div class="col">
-    <ng-container *ngIf="images$ | async as images">
-      <div *ngFor="let i of images">
-        <div
-          [ngStyle]="{'background': 'url('+ i.fields.featureImage.fields.file.url + ')', 'height': '500px', 'background-position': 'center', 'background-repeat': 'no-repeat', 'background-size': 'cover'}">
+<section class="container-fluid my-3 px-0">
+  <div class="row">
+    <div class="col">
+      <ng-container *ngIf="images$ | async as images">
+        <div *ngFor="let i of images">
+          <div
+            [ngStyle]="{'background': 'url('+ i.fields.featureImage.fields.file.url + ')', 'height': '500px', 'background-position': 'center', 'background-repeat': 'no-repeat', 'background-size': 'cover'}">
+          </div>
         </div>
-      </div>
-    </ng-container>
+      </ng-container>
+    </div>
   </div>
 </section>

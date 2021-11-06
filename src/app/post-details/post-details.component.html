@@ -1,16 +1,22 @@
-<section *ngIf="post$ | async as post">
-  <div>
-    <div>
-      <div>
-        <img class="post-img" src="{{ post.fields.image.fields.file.url }}" />
-      </div>
-      <div>
-        {{ post.fields.title }}
-      </div>
-    </div>
-    <div>
-      {{ post.fields.body }}
+<section class="container mt-5 mb-3">
+  <div class="row">
+    <div class="col">
+      <ng-container *ngIf="post$ | async as post">
+        <div>
+          <div>
+            <div>
+              <img class="post-img" src="{{ post.fields.image.fields.file.url }}" />
+            </div>
+            <div>
+              {{ post.fields.title }}
+            </div>
+          </div>
+          <div>
+            {{ post.fields.body }}
+          </div>
+        </div>
+        <a routerLink="/posts" routerLinkActive="active">Back</a>
+      </ng-container>
     </div>
   </div>
-  <a routerLink="/posts" routerLinkActive="active">Back</a>
 </section>
