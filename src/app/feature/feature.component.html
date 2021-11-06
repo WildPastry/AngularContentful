@@ -1,0 +1,9 @@
+<section class="row">
+  <div class="col">
+    <ng-container *ngIf="images$ | async as images">
+      <div *ngFor="let i of images">
+          <img class="feature-image" src="{{ i.fields.featureImage.fields.file.url }}" />
+      </div>
+    </ng-container>
+  </div>
+</section>

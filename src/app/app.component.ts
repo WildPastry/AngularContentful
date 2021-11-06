@@ -7,6 +7,7 @@ import { ContentfulService } from "./contentful.service";
   styleUrls: ["./app.component.scss"],
 })
 export class AppComponent implements OnInit {
+  images$ = this.contentfulService.getImages();
   constructor(private contentfulService: ContentfulService) {}
   ngOnInit() {}
 }

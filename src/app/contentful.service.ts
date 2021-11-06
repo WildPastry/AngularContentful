@@ -12,7 +12,8 @@ export class ContentfulService {
     space: environment.contentful.spaceId,
     accessToken: environment.contentful.accessToken,
     contentTypeIds: {
-      angularBlog: 'angularBlog',
+      blogPost: 'blogPost',
+      featureImage: 'featureImage'
     },
   };
 
@@ -22,13 +23,14 @@ export class ContentfulService {
   });
   constructor() {
     this.getPosts();
+    this.getImages();
   }
 
   getPosts(query?: object): any {
     return from(
       this.cdaClient.getEntries({
         ...Object,
-        content_type: this.CONFIG.contentTypeIds.angularBlog,
+        content_type: this.CONFIG.contentTypeIds.blogPost,
         query
       })
     ).pipe(map(posts => posts.items));
@@ -37,4 +39,15 @@ export class ContentfulService {
   getPost(id: string): any {
     return from(this.cdaClient.getEntry(id));
   }
+
+  getImages(query?: object): any {
+    return from(
+      this.cdaClient.getEntries({
+        ...Object,
+        content_type: this.CONFIG.contentTypeIds.featureImage,
+        query
+      })
+    ).pipe(map(images => images.items));
+  }
+
 }
