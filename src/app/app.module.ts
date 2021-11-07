@@ -8,9 +8,10 @@ import { PostDetailsComponent } from './post-details/post-details.component';
 import { HeaderComponent } from './header/header.component';
 import { FeatureComponent } from './feature/feature.component';
 import { FooterComponent } from './footer/footer.component';
+import { SocialComponent } from './social/social.component';
 
 @NgModule({
-  declarations: [AppComponent, PostsPageComponent, PostDetailsComponent, HeaderComponent, FeatureComponent, FooterComponent],
+  declarations: [AppComponent, PostsPageComponent, PostDetailsComponent, HeaderComponent, FeatureComponent, FooterComponent, SocialComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
