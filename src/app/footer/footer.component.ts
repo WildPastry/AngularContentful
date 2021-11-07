@@ -7,7 +7,7 @@ import { Component, OnInit } from "@angular/core";
 })
 export class FooterComponent implements OnInit {
   title = "ANGULAR CMS";
-  subTitle = "tagline";
+  subTitle = "the tagline";
   currentDate = new Date().getFullYear();
   copyRight =
     "Copyright © " + this.currentDate + " ANGULAR CMS All Rights Reserved";

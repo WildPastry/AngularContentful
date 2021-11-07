@@ -1,1 +1,40 @@
+.header-outer {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.header-title {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.header-sub-title {
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.header-buttons {
+  height: 100px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// main logo
+.sub-title {
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}

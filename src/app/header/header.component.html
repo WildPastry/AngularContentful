@@ -1,22 +1,25 @@
-<section class="container mt-5 mb-3">
-<header class="d-flex justify-content-between align-items-center">
-  <div class="d-flex">
-    <h5 routerLink="" routerLinkActive="active" class="cursor-pointer barlow-condensed">HOME</h5>
-    <div class="mx-3">|</div>
-    <h5 class="cursor-pointer barlow-condensed">ABOUT</h5>
-  </div>
-  <div routerLink="" routerLinkActive="active" class="text-blue-dark cursor-pointer position-relative">
-    <h1 class="barlow-condensed">
-      {{ title }}
-    </h1>
-    <h3 class="birthstone-bounce sub-title">
-      {{ subTitle }}
-    </h3>
-  </div>
-  <div class="d-flex">
-    <h5 routerLink="/posts" routerLinkActive="active" class="cursor-pointer barlow-condensed">BLOG</h5>
-    <div class="mx-3">|</div>
-    <h5 class="cursor-pointer barlow-condensed">CONTACT</h5>
-  </div>
-</header>
+<section class="container mt-5 mb-1">
+  <header class="header-outer">
+    <!-- header nav 1st div -->
+    <div class="header-buttons">
+      <h5 routerLink="" routerLinkActive="active" class="cursor-pointer barlow-condensed">HOME</h5>
+      <hr width="1" size="30" class="mx-4">
+      <h5 class="cursor-pointer barlow-condensed">ABOUT</h5>
+    </div>
+    <!-- header-title -->
+    <div routerLink="" routerLinkActive="active" class="text-blue-dark cursor-pointer position-relative header-title">
+      <h1 class="barlow-condensed">
+        {{ title }}
+      </h1>
+      <h3 class="birthstone-bounce header-sub-title">
+        {{ subTitle }}
+      </h3>
+    </div>
+    <!-- header nav 2nd div -->
+    <div class="header-buttons">
+      <h5 routerLink="/posts" routerLinkActive="active" class="cursor-pointer barlow-condensed">BLOG</h5>
+      <hr width="1" size="30" class="mx-4">
+      <h5 class="cursor-pointer barlow-condensed">CONTACT</h5>
+    </div>
+  </header>
 </section>

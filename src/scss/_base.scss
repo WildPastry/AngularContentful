@@ -14,7 +14,6 @@ body {
 body {
   background-color: $lite;
   color: $dark;
-  // padding-bottom: 248px;
 }
 
 // BOOTSTRAP CONTROL
@@ -30,7 +29,7 @@ $btn-border-radius: 0px;
 
 // font
 p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .source-sans {
@@ -65,19 +64,6 @@ p {
   color: $tan-lite;
 }
 
-// cursor
-.cursor-pointer {
-  cursor: pointer;
-}
-
-.cursor-default {
-  cursor: default;
-}
-
-.cursor-text {
-  cursor: text;
-}
-
 // bg
 .bg-blue-dark {
   background-color: $blue-dark;
@@ -99,17 +85,20 @@ p {
   background-color: $tan-lite;
 }
 
-// control
-
-.position-relative {
-  position: relative;
+// cursor
+.cursor-pointer {
+  cursor: pointer;
 }
 
-// main logo
-.sub-title {
-  position: absolute;
-  top: 35px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%)
+.cursor-default {
+  cursor: default;
+}
+
+.cursor-text {
+  cursor: text;
+}
+
+// control
+.position-relative {
+  position: relative;
 }

@@ -7,7 +7,7 @@ import { Component, OnInit } from "@angular/core";
 })
 export class HeaderComponent implements OnInit {
   title = "ANGULAR CMS";
-  subTitle = "tagline";
+  subTitle = "the tagline";
   constructor() {}
 
   ngOnInit() {}

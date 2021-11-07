@@ -1,25 +1,48 @@
-.footer {
-  // position: fixed;
-  // left: 0;
-  // bottom: 0;
+.footer-outer {
   width: 100%;
-  // height: 248px;
-  // position: relative;
-  // clear: both;
-  // padding-top: 15px;
-  height: 248px;
-  margin-top: -248px;
+  height: 250px;
+  margin-top: -250px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.footer-title {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.footer-sub-title {
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.footer-consultation {
+  height: 100px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .btn-grid {
   display: grid;
+  width: 190px;
   grid-template-columns: auto auto;
 }
 
-.btn-grid-item {
-  margin: 5px;
-}
-
-.footer-div {
-  width: 190px;
+hr {
+  width: 20%;
+  margin: 15px auto;
 }
