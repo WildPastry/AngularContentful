@@ -1,17 +1,23 @@
 .services-outer {
   display: flex;
   justify-content: center;
-  // width: 100%;
-  // height: 350px;
-  // margin-top: -250px;
 }
 
 .services-inner {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   height: 400px;
   width: 400px;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
   border: 1px solid #d7b58c;
-  // align-items: center;
-  // height: 100px;
+  background-color: #e4d4c4;
+}
+
+.services-hr {
+  width: 80%;
+  color: #d7b58c;
 }
