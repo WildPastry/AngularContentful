@@ -19,13 +19,19 @@
         <div *ngFor="let p of posts">
           <div class="d-flex mb-5">
             <img class="post-img" src="{{ p.fields.image.fields.file.url }}" />
-            <h3 [routerLink]="['/post-details/', p.sys.id]" routerLinkActive="active" class="barlow-condensed cursor-pointer">
-              <div class="d-flex">
-                <hr width="1" size="340" class="mx-4">
-                {{ p.fields.title }}
-                {{ p.fields.body }}
+            <div class="d-flex">
+              <hr width="1" size="340" class="mx-4">
+              <div>
+                <h2 class="barlow-condensed">
+                  {{ p.fields.title }}
+                </h2>
+                <p class="source-sans">
+                  {{ p.fields.body }}
+                </p>
+                <button [routerLink]="['/post-details/', p.sys.id]" routerLinkActive="active"
+                  class="btn btn-primary barlow-condensed">READ MORE</button>
               </div>
-            </h3>
+            </div>
           </div>
         </div>
       </ng-container>

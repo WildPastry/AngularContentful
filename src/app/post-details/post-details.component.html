@@ -1,21 +1,18 @@
 <section class="container mt-5 mb-3">
   <div class="row">
-    <div class="col">
+    <div class="col-12">
       <ng-container *ngIf="post$ | async as p">
-        <div>
-          <div>
-            <div>
-              <img class="post-img" src="{{ p.fields.image.fields.file.url }}" />
+            <div >
+              <img class="post-detail-img" src="{{ p.fields.image.fields.file.url }}" />
             </div>
-            <div>
+            <h2 class="barlow-condensed">
               {{ p.fields.title }}
-            </div>
-          </div>
-          <div>
+            </h2>
+          <p class="source-sans">
             {{ p.fields.body }}
-          </div>
-        </div>
-        <h5 routerLink="/posts" routerLinkActive="active" class="barlow-condensed cursor-pointer">Back</h5>
+          </p>
+        <button routerLink="/posts" routerLinkActive="active"
+        class="btn btn-primary barlow-condensed">BACK</button>
       </ng-container>
     </div>
   </div>
