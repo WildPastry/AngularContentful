@@ -13,9 +13,10 @@ import { MainComponent } from './main/main.component';
 import { ServicesComponent } from './services/services.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { PersonalComponent } from './personal/personal.component';
 
 @NgModule({
-  declarations: [AppComponent, PostsPageComponent, PostDetailsComponent, HeaderComponent, FeatureComponent, FooterComponent, SocialComponent, MainComponent, ServicesComponent, AboutComponent, ContactComponent],
+  declarations: [AppComponent, PostsPageComponent, PostDetailsComponent, HeaderComponent, FeatureComponent, FooterComponent, SocialComponent, MainComponent, ServicesComponent, AboutComponent, ContactComponent, PersonalComponent],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent]
