@@ -1,0 +1,24 @@
+.personal-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aca0a0;
+}
+
+.personal-inner {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  margin: 0 1.5em;
+}
+
+.personal-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 0 1.5em;
+  background-color: #e4d4c4;
+}
