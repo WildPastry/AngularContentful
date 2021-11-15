@@ -3,7 +3,7 @@
   @include reset(0, 0, border-box, none, none);
 }
 
-// body
+// html/body
 html,
 body {
   -webkit-font-smoothing: antialiased;
@@ -11,7 +11,13 @@ body {
   margin: 0;
 }
 
+html {
+  height: 100%;
+  overflow: auto;
+}
+
 body {
+  height: 100%;
   background-color: $lite;
   color: $dark;
 }
@@ -20,8 +26,8 @@ body {
 
 // theme colors
 $theme-colors: (
-	'primary': $blue-dark,
-  'secondary': $grey-lite
+  "primary": $blue-dark,
+  "secondary": $grey-lite,
 );
 
 // buttons
@@ -45,7 +51,7 @@ a {
 }
 
 .birthstone-bounce {
-  font-family: 'Birthstone Bounce', cursive;
+  font-family: "Birthstone Bounce", cursive;
 }
 
 .text-blue-dark {
@@ -108,5 +114,5 @@ a {
 }
 
 .w-190 {
-  width:190px
+  width: 190px;
 }

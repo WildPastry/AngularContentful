@@ -15,7 +15,7 @@ export class FeatureComponent implements OnInit {
   images$ = this.contentfulService.getImages();
 
   constructor(private contentfulService: ContentfulService) {
-    console.log(this.images$, this.styleObject)
+    // console.log(this.images$, this.styleObject)
   }
   ngOnInit() {}
 }
