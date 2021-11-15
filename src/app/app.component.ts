@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
   // child element
   @ViewChild("scrollAnchor", { static: false }) scrollAnchor: ElementRef;
 
-  // contentfulService
+  // contentfulService images
   images$ = this.contentfulService.getImages();
 
   // constructor - add contentfulService and router
