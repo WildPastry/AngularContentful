@@ -6,7 +6,7 @@ import { Component } from "@angular/core";
   <!-- feature component -->
   <app-feature></app-feature>
   <!-- services component -->
-  <app-services></app-services>
+  <app-client-services></app-client-services>
   <!-- personal component -->
   <app-personal></app-personal>`,
   styleUrls: ["./main.component.scss"],

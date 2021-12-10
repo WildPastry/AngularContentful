@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { ContentfulService } from "../contentful.service";
+import { ContentfulService } from "../../services/contentful.service";
 // component declarations
 @Component({
   selector: "app-posts-page",

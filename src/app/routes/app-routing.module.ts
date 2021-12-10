@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { MainComponent } from './main/main.component';
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
-import { PostsPageComponent } from './posts-page/posts-page.component';
-import { PostDetailsComponent } from './post-details/post-details.component';
+import { MainComponent } from '../components/main/main.component';
+import { AboutComponent } from '../pages/about/about.component';
+import { ContactComponent } from '../components/contact/contact.component';
+import { PostsPageComponent } from '../pages/posts-page/posts-page.component';
+import { PostDetailsComponent } from '../pages/post-details/post-details.component';
 
 const routes: Routes = [
   {

@@ -1,12 +1,12 @@
 import { Component, OnInit } from "@angular/core";
 // component declarations
 @Component({
-  selector: "app-services",
+  selector: "app-client-services",
   template: `<section class="container mb-5">
-    <div class="services-outer">
-      <div class="services-inner">
-        <h2 class="barlow-condensed">{{service1}}</h2>
-        <hr class="services-hr" width="1" />
+    <div class="client-services-outer">
+      <div class="client-services-inner">
+        <h2 class="barlow-condensed">{{clientService1}}</h2>
+        <hr class="client-services-hr" width="1" />
         <p class="text-center">
           Cortina d'Ampezzo is a town in the heart of the southern (Dolomitic)
           Alps in the region of Veneto in northern Italy. Situated on the river
@@ -14,9 +14,9 @@ import { Component, OnInit } from "@angular/core";
         </p>
         <button class="btn btn-secondary barlow-condensed">LEARN MORE</button>
       </div>
-      <div class="services-inner">
-        <h2 class="barlow-condensed">{{service2}}</h2>
-        <hr class="services-hr" width="1" />
+      <div class="client-services-inner">
+        <h2 class="barlow-condensed">{{clientService2}}</h2>
+        <hr class="client-services-hr" width="1" />
         <p class="text-center">
           Cortina d'Ampezzo is a town in the heart of the southern (Dolomitic)
           Alps in the region of Veneto in northern Italy. Situated on the river
@@ -24,9 +24,9 @@ import { Component, OnInit } from "@angular/core";
         </p>
         <button class="btn btn-secondary barlow-condensed">LEARN MORE</button>
       </div>
-      <div class="services-inner">
-        <h2 class="barlow-condensed">{{service3}}</h2>
-        <hr class="services-hr" width="1" />
+      <div class="client-services-inner">
+        <h2 class="barlow-condensed">{{clientService3}}</h2>
+        <hr class="client-services-hr" width="1" />
         <p class="text-center">
           Cortina d'Ampezzo is a town in the heart of the southern (Dolomitic)
           Alps in the region of Veneto in northern Italy. Situated on the river
@@ -36,16 +36,16 @@ import { Component, OnInit } from "@angular/core";
       </div>
     </div>
   </section>`,
-  styleUrls: ["./services.component.scss"],
+  styleUrls: ["./client-services.component.scss"],
 })
 // export component
-export class ServicesComponent implements OnInit {
-  service1: string;
-  service2: string;
-  service3: string;
+export class ClientServicesComponent implements OnInit {
+  clientService1: string;
+  clientService2: string;
+  clientService3: string;
   ngOnInit() {
-    this.service1 = 'SERVICE 1';
-    this.service2 = 'SERVICE 2';
-    this.service3 = 'SERVICE 3';
+    this.clientService1 = 'CLIENT SERVICE 1';
+    this.clientService2 = 'CLIENT SERVICE 2';
+    this.clientService3 = 'CLIENT SERVICE 3';
   }
 }

@@ -1,5 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
-import { ContentfulService } from "./contentful.service";
+import { ContentfulService } from "./services/contentful.service";
 import { Router, NavigationEnd } from "@angular/router";
 // component declarations
 @Component({
