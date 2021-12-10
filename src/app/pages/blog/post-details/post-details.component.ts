@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { ContentfulService } from "../../services/contentful.service";
+import { ContentfulService } from "../../../services/contentful.service";
 import { ActivatedRoute } from "@angular/router";
 // component declarations
 @Component({
