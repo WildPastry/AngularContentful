@@ -14,7 +14,8 @@ import { ContentfulService } from "../../../services/contentful.service";
               <div class="d-flex mb-5">
                 <img
                   class="post-img"
-                  src="{{ p.fields.image.fields.file.url }}"/>
+                  src="{{ p.fields.image.fields.file.url }}"
+                  alt="{{ p.fields.title }}" />
                 <div class="d-flex">
                   <hr width="1" size="340" class="mx-4" />
                   <div>
