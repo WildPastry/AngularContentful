@@ -13,7 +13,7 @@ import { MainComponent } from './components/main/main.component';
 import { ClientServicesComponent } from './components/client-services/client-services.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { PersonalComponent } from './pages/personal/personal.component';
+import { PersonalComponent } from './components/personal/personal.component';
 
 @NgModule({
   declarations: [AppComponent, PostsPageComponent, PostDetailsComponent, HeaderComponent, FeatureComponent, FooterComponent, SocialComponent, MainComponent, ClientServicesComponent, AboutComponent, ContactComponent, PersonalComponent],
