@@ -18,16 +18,16 @@ html {
 
 body {
   height: 100%;
-  background-color: $lite;
-  color: $dark;
+  background-color: var(--lite) !important;
+  color: var(--dark) !important;
 }
 
 // BOOTSTRAP CONTROL
 
 // theme colors
 $theme-colors: (
-  "primary": $blue-dark,
-  "secondary": $grey-lite,
+  "primary": #252e47,
+  "secondary": #eae5df,
 );
 
 // buttons
@@ -55,44 +55,44 @@ a {
 }
 
 .text-blue-dark {
-  color: $blue-dark;
+  color: var(--blue-dark);
 }
 
 .text-grey-med {
-  color: $grey-med;
+  color: var(--grey-med);
 }
 
 .text-grey-lite {
-  color: $grey-lite;
+  color: var(--grey-lite);
 }
 
 .text-tan-dark {
-  color: $tan-dark;
+  color: var(--tan-dark);
 }
 
 .text-tan-lite {
-  color: $tan-lite;
+  color: var(--tan-lite);
 }
 
 // bg
 .bg-blue-dark {
-  background-color: $blue-dark;
+  background-color: var(--blue-dark);
 }
 
 .bg-grey-med {
-  background-color: $grey-med;
+  background-color: var(--grey-med);
 }
 
 .bg-grey-lite {
-  background-color: $grey-lite;
+  background-color: var(--grey-lite);
 }
 
 .bg-tan-dark {
-  background-color: $tan-dark;
+  background-color: var(--tan-dark);
 }
 
 .bg-tan-lite {
-  background-color: $tan-lite;
+  background-color: var(--tan-lite);
 }
 
 // cursor

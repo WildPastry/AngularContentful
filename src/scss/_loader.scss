@@ -4,7 +4,7 @@
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background: $blue-dark;
+  background: var(--blue-dark);
 }
 
 .loader,
@@ -20,7 +20,7 @@
 }
 
 .loader {
-  color: $lite;
+  color: var(--lite);
   font-size: 10px;
   margin: 80px auto;
   position: relative;

@@ -1,8 +1,10 @@
 // colours
-$dark: #2c2c2c;
-$lite: #f8f8f8;
-$blue-dark: #252e47;
-$grey-med: #aca0a0;
-$grey-lite: #eae5df;
-$tan-dark: #d7b58c;
-$tan-lite: #e4d4c4;
+:root {
+  --dark: #2c2c2c;
+  --lite: #f8f8f8;
+  --blue-dark: #252e47;
+  --grey-med: #aca0a0;
+  --grey-lite: #eae5df;
+  --tan-dark: #d7b58c;
+  --tan-lite: #e4d4c4;
+}
