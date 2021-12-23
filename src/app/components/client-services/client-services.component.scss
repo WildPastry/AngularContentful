@@ -12,11 +12,11 @@
   height: 400px;
   width: 400px;
   margin: 0 1.5em;
-  border: 1px solid #d7b58c;
-  background-color: #e4d4c4;
+  border: 1px solid var(--tan-dark);
+  background-color: var(--tan-lite);
 }
 
 .client-services-hr {
   width: 80%;
-  color: #d7b58c;
+  color: var(--tan-dark);
 }

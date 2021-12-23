@@ -1,6 +1,6 @@
 .about-feature {
   height: 500px;
-  background-color: #aca0a0;
+  background-color: var(--grey-med);
 }
 
 .about-outer {
@@ -24,5 +24,5 @@
   width: 300px;
   border-radius: 50%;
   margin: 0 1.5em;
-  background-color: #e4d4c4;
+  background-color: var(--tan-lite);
 }
