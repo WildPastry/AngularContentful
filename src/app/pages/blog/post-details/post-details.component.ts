@@ -7,7 +7,7 @@ import { ActivatedRoute } from "@angular/router";
   template: `<section class="container post-container mb-3">
     <div class="row">
       <div class="col-12">
-        <ng-container *ngIf="post$ | async as p">
+        <ng-container *ngIf="post$ as p">
           <div class="mb-3">
             <img
               class="post-detail-img"
