@@ -8,3 +8,6 @@ Angular with SASS / Bootstrap Grid / Contentful
 * **Contentful** <br>
 * **TypeScript** <br>
 * **SASS** <br>
+* **Font Awesome** <br>
+* **Karma** <br>
+* **Jasmine** <br>
