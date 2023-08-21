@@ -17,7 +17,7 @@
     "@angular/core": "~16.2.0",
     "@angular/forms": "~16.2.0",
     "@angular/platform-browser": "~16.2.0",
-    "@angular/platform-browser-dynamic": "~16.2.0",
+    "@angular/platform-browser-dynamic": "~16.2.1",
     "@angular/router": "~16.2.0",
     "@fortawesome/angular-fontawesome": "^0.13.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
