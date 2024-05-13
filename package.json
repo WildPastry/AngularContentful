@@ -24,7 +24,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "bootstrap": "^5.3.3",
-    "contentful": "^10.8.10",
+    "contentful": "^10.10.0",
     "rxjs": "~7.8.1",
     "tslib": "^2.6.2",
     "zone.js": "~0.14.4"
